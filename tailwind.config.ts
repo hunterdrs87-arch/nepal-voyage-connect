@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Nepal Voyager custom colors
+        nepal: {
+          blue: "hsl(var(--nepal-blue))",
+          gold: "hsl(var(--nepal-gold))",
+        },
+        mountain: {
+          blue: "hsl(var(--mountain-blue))",
+        },
+        success: "hsl(var(--success))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +66,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-mountain': 'var(--gradient-mountain)', 
+        'gradient-card': 'var(--gradient-card)',
+      },
+      boxShadow: {
+        'elegant': 'var(--shadow-elegant)',
+        'card-custom': 'var(--shadow-card)',
+        'mountain': 'var(--shadow-mountain)',
       },
       borderRadius: {
         lg: "var(--radius)",
